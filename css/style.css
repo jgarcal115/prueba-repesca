@@ -1,0 +1,94 @@
+body, html {
+    height: 100%;
+}
+
+.bg-img {
+    
+    background-image: url("../images/spin.jpg");
+  
+    height: 500px;
+  
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    position: relative;
+  }
+  
+  /* Position the navbar container inside the image */
+  .container {
+    position: absolute;
+   
+    left: 63%;
+    top: 10%
+
+    
+  }
+  
+  /* The navbar */
+  .topnav {
+    overflow: hidden;
+   
+
+    
+  }
+  
+  /* Navbar links */
+  .topnav a 
+  {
+    
+    color: #f2f2f2;
+    
+    padding: 50px 20px;
+    text-decoration: none;
+    font-size: 19px;
+    font-family: "ubuntu";
+    position: relative;
+    
+    
+  }
+  .hero-text {
+    color: #D97373;
+    position: relative;
+   top: 40%;
+    left: 16%;
+    font-size: 25px;
+    font-family: "ubuntu";
+
+  }
+  
+
+  .texto {
+    font-family: "space mono";
+    font-size: 13px;
+    position: relative;
+    margin-left: 2%;
+  
+  }
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: #2196F3;
+        padding: 10px;
+        margin: 5%;
+       
+      }
+      .grid-item {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+        position: relative;
+      }
+  
+  footer {
+    
+    font-family: "ubuntu";
+    text-align: center;
+ }
+    .grad {background-color: conic-gradient (from 177deg at 0% 100%, rgb(84, 71, 63) 0%, rgb(225, 218, 210) 100%);}
+ 
+  
